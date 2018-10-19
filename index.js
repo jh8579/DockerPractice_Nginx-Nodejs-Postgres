@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     // const conString = "postgres://postgres:1234@app_db:5432/docker_tutorial";
     // const results = [];
 
-    var client = new pg.Client(conString);
+    //var client = new pg.Client(conString);
     client.connect(function (err) {
         const results = [];
         res.send("ddd")
