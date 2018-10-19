@@ -28,7 +28,7 @@ services:
         environment:
             NODE_ENV: localhost
         ports:
-            - 8000
+            - 3000
         links:
             - postgres:app_db
 
