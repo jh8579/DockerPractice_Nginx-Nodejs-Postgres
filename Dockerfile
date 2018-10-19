@@ -6,4 +6,7 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app
 
-CMD ["node", "index.js"]
+COPY package*.json ./
+RUN npm install
+
+CMD ["npm", "start"]
