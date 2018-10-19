@@ -18,7 +18,7 @@ services:
         # 열어줄 포트
         # 호스트와 연결할 포트:외부에 노출할 포트
         ports:
-            - 80:80
+            - 3000:80
 
     app:
         container_name: app
